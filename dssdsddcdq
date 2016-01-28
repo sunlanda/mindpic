@@ -1,0 +1,41 @@
+[33mcommit 7730fccb579a522f80fcb4038372823f046fdbd7[m
+Author: fubei cheng <relaxto@qq.com>
+Date:   Thu Jan 28 18:59:30 2016 +0800
+
+    前端学习阶段考察图
+
+[33mcommit e0484d2c427ac80eb49f4634771530e9a90a9f15[m
+Author: fubei cheng <relaxto@qq.com>
+Date:   Wed Jan 27 20:10:09 2016 +0800
+
+    '出师技能标准3.0'
+
+[33mcommit 95e64a5c3f782898db7f3b113574d6f921b3bf72[m
+Author: fubei cheng <relaxto@qq.com>
+Date:   Sun Jan 17 13:57:38 2016 +0800
+
+    Revert "前端开发必备技能"
+    
+    This reverts commit d0b03a86d3dbc94750a4752e6a4b8fa46a9c6a6b.
+
+[33mcommit d0b03a86d3dbc94750a4752e6a4b8fa46a9c6a6b[m
+Author: fubei cheng <relaxto@qq.com>
+Date:   Sun Jan 17 13:53:22 2016 +0800
+
+    前端开发必备技能
+    
+    一张图看懂前端开发必备技能
+
+[33mcommit 47cbf7b013ecbe0ec9425082380b44ccf80fa764[m
+Author: fubei cheng <relaxto@qq.com>
+Date:   Wed Jan 6 01:52:32 2016 +0800
+
+    出师技能标准
+    
+    技能提升图
+
+[33mcommit 2738d57ba0d0cb2c33a3a748112ab3b77c899f2e[m
+Author: fubei cheng <relaxto@qq.com>
+Date:   Wed Jan 6 01:51:21 2016 +0800
+
+    :confetti_ball: Added .gitattributes

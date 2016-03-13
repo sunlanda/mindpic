@@ -7,9 +7,6 @@
 
 *[运算符](#user-content-operation)
 
-    +三元运算符  
-    
-
 *[表达式](#user-content-expression)
 
 *[语句](#user-content-statement)
@@ -20,7 +17,7 @@
 
 *[BOM](#user-content-bom)
 
-*[定时器](#user-content-timer)
+*[定时器](#user-content-timer) 
 
 *[属性/方法/变量](#user-content-method)
 
@@ -32,7 +29,7 @@
 
 *[内置对象](#user-content-inner-obj)
 
-*[Ajax](#user-content-ajax)
+*[Ajax](#user-content-ajax)  
 
 *[闭包](#user-content-closebag)
 
@@ -41,21 +38,46 @@
 
 
 
+
+_____________________________________
+
+
+
+
+
 <a id="arithmetic"></a>
 ##算法
-    暂未添加
+    数组排序
+    冒泡
+    闭包原理
+    数组查重
+    排他思想
+    跳楼想法
 
 <a id="variable"></a>
 ##变量和数据类型
-    暂未添加
+    变量提升
+    ```
+        var num = 10;
+        functioon  fn(){
+            console.log(num)  //  第一次输出undefined
+            var num = 20;
+            console.log(num)  //  变量提升是将声明提前,执行函数体内的优先
+        }
+        fn();  //
+    ```
 
 <a id="operation"></a>
 ##运算符
-    暂未添加
+    三元运算符  ||  && !
 
 <a id="expression"></a>
 ##表达式
-    暂未添加
+    ```
+      var fn = function(){};  // 变量声明形式
+      function fn(){};  //函数定义形式
+      var func = new Fn(); // 构造函数实例化
+    ```
 
 <a id="statement"></a>
 ##语句
@@ -63,19 +85,37 @@
 
 <a id="array"></a>
 ##数组
-    暂未添加
+    数组排序: 
+        arr.sort() //数组默认按升序排列
+        arr.reverse() //翻转数组
+    原生:
+    ```
+        var arr = [3,4,7,1,7,3,8,4,2,1]
+        
+        console.log(arr)
+    ```
 
 <a id="dom"></a>
 ##DOM
-    暂未添加
+    节点操作    
+    属性操作  setAttrbule
+    增删改查
 
 <a id="bom"></a>
 ##BOM
-    暂未添加
+    history 历史记录
+    window  系统属性(alert())
+    document 文档加载
+    location 地址栏
+    screen  屏幕
+    navigator 
+
 
 <a id="timer"></a>
 ##定时器
-    暂未添加
+    var timer = setTimeout()
+    var timer = setinterval()
+    clear timer()
 
 <a id="method"></a>
 ##属性/方法/变量
@@ -83,7 +123,7 @@
 
 <a id="event"></a>
 ##事件
-    暂未添加
+    时间三要素 事件源 事件 
 
 <a id="function"></a>
 ##函数
@@ -99,13 +139,19 @@
 
 <a id="ajax"></a>
 ##ajax
-    暂未添加
+```
 
+```
 <a id="closebag"></a>
 ##闭包
-    暂未添加
+    创建一个独立的作用域 函数和变量声明只能在这个独立作用域中使用和调用
+
 
 <a id="turnround"></a>
 ##回调
-    暂未添加
+    callback
+    自己调用自己
+    ```
+    
+    ```
 

@@ -35,6 +35,8 @@
 
 *[回调](#user-content-turnround)
 
+*[设计模式](#user-content-designpattern)
+
 
 
 
@@ -66,6 +68,16 @@ _____________________________________
         }
         fn();  //
     ```
+    数据类型
+      数字:number()   强制进行数学运算  parseint  parsefloat
+      布尔:boolean()  转化 true  和false  用于判断真假
+      字符串:  tostring()
+      json.parse    解析字符串
+          var str = '{"name":"huangxiaojian","age":"23"}'  JSON.parse(str)
+          单引号写在{}外，每个属性名都必须用双引号，否则会抛出异常
+      json.stringify   字符串json化
+          stringify()用于从一个对象解析出字符串
+          var  a = {a:1,b:2}   JSON.stringify(a)   "{"a":1,"b":2}"
 
 <a id="operation"></a>
 ##运算符
@@ -151,6 +163,26 @@ _____________________________________
 ##回调
     callback
     自己调用自己
+    ```
+    
+    ```
+
+<a id="designpattern"></a>
+##设计模式
+    单例模式
+    命令模式
+    模块模式
+    工厂模式
+    构造函数模式
+    原型模式
+    组合模式
+    观察者模式
+    订阅发布模式
+Promise/A模式
+
+
+
+
     ```
     
     ```

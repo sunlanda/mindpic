@@ -37,6 +37,8 @@
 
 *[设计模式](#user-content-designpattern)
 
+*[工程化](#workflow)
+
 
 
 
@@ -109,9 +111,14 @@ _____________________________________
 
 <a id="dom"></a>
 ##DOM
-    节点操作    
-    属性操作  setAttrbule
-    增删改查
+    节点操作  parentNode children
+    属性操作  setAttrbule/getAttribute
+    jquery的增删改查  attr("data-name","xiaohong") /$("input[type='checkbox']").prop("checked",true)
+
+    原生获取元素需要document.getElementById/querySelector/querySelectorAll
+<code>document.getElementById("contentBox").getAttribute("value")</code>
+    jquery只需要$选择器即可实现
+<code>$("#contentBox").val()</code>
 
 <a id="bom"></a>
 ##BOM
@@ -131,15 +138,23 @@ _____________________________________
 
 <a id="method"></a>
 ##属性/方法/变量
-    暂未添加
+    
 
 <a id="event"></a>
 ##事件
-    时间三要素 事件源 事件 
+    事件三要素 事件源 事件 
+    addEventListener()
+    removeEventListener() 
+<code>
+    document.getElementById("myBtn").addEventListener("click", myFunction);
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+</code>
 
 <a id="function"></a>
 ##函数
-    暂未添加
 
 <a id="face-obj"></a>
 ##面向对象
@@ -151,9 +166,43 @@ _____________________________________
 
 <a id="ajax"></a>
 ##ajax
-```
+<code>
+    $.ajax({
+        type:"POST",
+        url:"./request/addMenu",
+        dataType:"json",
+        contentType:"application/json",
+        data:JSON.stringify(param),
+        success:function(v){
+            setTimeout(function(){
+                // history.go(0)
+                window.location.href ="index.html";
+            },1200)
+        },
+        error:function(v){
+            
+        }
+    });
+</code>
+jsonp 
+$.ajax({
+        type:"POST",
+        url:"www.baidu.com/tianqi/today",
+        dataType: "jsonp",
+        jsonp: 'callbackparam',
+        contentType: "application/json; charset=utf-8",
+        data:{age:22},
+        success:function(v){
+            setTimeout(function(){
+                // history.go(0)
+                window.location.href ="index.html";
+            },1200)
+        },
+        error:function(v){
+            
+        }
+    });
 
-```
 <a id="closebag"></a>
 ##闭包
     创建一个独立的作用域 函数和变量声明只能在这个独立作用域中使用和调用
@@ -161,8 +210,9 @@ _____________________________________
 
 <a id="turnround"></a>
 ##回调
-    callback
-    自己调用自己
+    callback  事件结束后触发某任务
+
+    循环调用:自己调用自己
     ```
     
     ```
@@ -178,12 +228,14 @@ _____________________________________
     组合模式
     观察者模式
     订阅发布模式
-Promise/A模式
+    Promise/A模式
 
 
-
-
-    ```
-    
-    ```
+<a id="workflow"></a>
+##工程化
+    gulp
+    grunt
+    webpack
+    cooking
+    yoman
 

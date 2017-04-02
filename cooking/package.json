@@ -1,0 +1,14 @@
+{
+  "name": "cooking",
+  "version": "1.0.0",
+  "description": "cooking,webpack",
+  "main": "cooking.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cooking"
+  ],
+  "author": "cheng",
+  "license": "ISC"
+}
